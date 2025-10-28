@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use(cors({
-  origin: 'https://test-test-reg.vercel.app', // your frontend domain
+  origin: 'https://test-auth-backend-theta.vercel.app', // your frontend domain
   credentials: true, // allow cookies
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 }));
