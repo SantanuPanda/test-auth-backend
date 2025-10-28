@@ -12,7 +12,7 @@ function App() {
     
     try {
       const response = await axios.post(
-        'https://test-test-reg.onrender.com/user/register',
+        'https://test-auth-backend-lucg.onrender.com/user/register',
         {
           email,
           password
